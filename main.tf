@@ -12,7 +12,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "this" {
-  name     = "${var.name}-v2"
+  name     = "${var.name}-v3"
   location = var.location
   tags     = var.tags
 }
